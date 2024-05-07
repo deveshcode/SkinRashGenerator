@@ -1,4 +1,5 @@
 # SkinRashGenerator
+<img width="448" alt="Screenshot 2024-05-07 at 6 46 50 PM" src="https://github.com/deveshcode/SkinRashGenerator/assets/37287532/27202e41-4d6f-45d0-a61a-d2d0b42792b0">
 
 ## Project Overview
 SkinRashGenerator is a deep learning project aimed at generating synthetic images of skin rashes based on textual descriptions. The project utilizes fine-tuned CLIP models integrated with latent diffusion techniques to generate images varying by rash type, skin color, and affected area.
