@@ -1,64 +1,89 @@
 # SkinRashGenerator
-<img width="448" alt="Screenshot 2024-05-07 at 6 46 50 PM" src="https://github.com/deveshcode/SkinRashGenerator/assets/37287532/27202e41-4d6f-45d0-a61a-d2d0b42792b0">
 
-## Project Overview
-SkinRashGenerator is a deep learning project aimed at generating synthetic images of skin rashes based on textual descriptions. The project utilizes fine-tuned CLIP models integrated with latent diffusion techniques to generate images varying by rash type, skin color, and affected area.
+SkinRashGenerator is a deep learning project that generates synthetic images of skin rashes based on textual descriptions. This project utilizes fine-tuned CLIP models integrated with latent diffusion techniques to create images that vary by rash type, skin color, and affected area.
 
-## Objective
-To develop a generative model that can create high-fidelity images of common skin rashes for educational and diagnostic purposes, allowing customization by type of rash, skin tone, and body area.
+## Live Application
 
-## Technologies Used
+[![Live Application](https://img.shields.io/badge/Live%20Application-<COLOR>?style=for-the-badge&logo=<LOGO>&logoColor=white)]()
+
+## Video Demo
+
+[![Video Demo](https://img.shields.io/badge/Video%20Demo-<COLOR>?style=for-the-badge&logo=<LOGO>&logoColor=white)]()
+
+## Documentation
+
+[![codelabs](https://img.shields.io/badge/codelabs-4285F4?style=for-the-badge&logo=codelabs&logoColor=white)]()
+
+## Features
+
+![image](https://github.com/user-attachments/assets/a7831f53-08fb-4f8f-b806-ca2531ebf93b)
+
+- Customizable Rash Generation: Generate images of common skin rashes with customization options for type of rash, skin tone, and body area.
+- High-Fidelity Images: Produce realistic and detailed images of skin rashes for educational and diagnostic purposes.
+- Web Deployment: Deploy the application using Streamlit for a user-friendly web interface.
+- Alternative Deployment: Option to deploy the application using Flask and React for a more traditional web application.
+
+## Getting Started
+These instructions will help you set up the project on your local machine for development and testing purposes.
+
+- Prerequisites
 - Python
 - PyTorch
-- CLIP (Contrastive Language-Image Pre-training)
-- Streamlit for web deployment
-- Flask and React for alternative deployment strategy
+- Streamlit (for web deployment)
+- Flask and React (for alternative deployment)
 
 ## Installation
-To set up this project locally, follow these steps:
+
+1. Git clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/SkinRashGenerator.git
-cd SkinRashGenerator
+git clone https://github.com/deveshcode/SkinRashGenerator.git
+cd shopping-multimodal-rag
+```
+
+2. Install the required packages:
+
+```bash
 pip install -r requirements.txt
 ```
 
-# Usage
+3. Create a .env file in the root directory and add your API keys:
 
-To run the Streamlit application:
+```bash
+OPENAI_API_KEY=your_open_ai_key
+```
+
+## Example Commands
+
+Generate images by typing commands such as:
+
+- "Generate a ringworm rash on fair skin at the neck area."
+- "Show eczema on brown skin on the hand."
+
+## Usage
+
+To run the Streamlit app:
+
 ```bash
 streamlit run app.py
 ```
 
-## For Flask deployment:
+To run the Python app:
 
 ```bash
 python app.py
 ```
-Navigate to localhost:8501 for Streamlit or localhost:5000 for Flask, depending on which server you've started.
+Open the provided URL in your web browser to access the application.
 
-### Example Commands
-Generate images by typing commands such as:
+## Tools and Technologies
 
-"Generate a ringworm rash on fair skin at the neck area."
-"Show eczema on brown skin on the hand."
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
 
-# Contributing
-Contributions to the SkinRashGenerator are welcome. Please fork the repository and submit a pull request with your proposed changes.
+## Contributing
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-# License
-Distributed under the Apache 2.0 License. See LICENSE for more information.
-
-# Acknowledgments
-- Prof. Das for project guidance
-- Kaggle and Hugging Face for datasets and model hosting
-- All resources that have provided tutorials and insights into the workings of CLIP and latent diffusion models
-
-# Authors
-- Devesh Surve
-- Haonan Chen
-
-# Contact
-For any queries, please open an issue in the repository or contact deveshsurve5@gmail.com
-
-Thank you for checking out our project!
+## License
+Distributed under the MIT License. See LICENSE for more information.
